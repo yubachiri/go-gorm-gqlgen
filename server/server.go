@@ -17,7 +17,7 @@ import (
 	"github.com/go-chi/chi"
 )
 
-const dataSource = "localuser:localpass@tcp(db:3306)/localdb?charset=utf8&parseTime=True&loc=Local"
+const dataSource = "user:password@tcp(db:3306)/app_db?charset=utf8&parseTime=True&loc=Local"
 const defaultPort = "8080"
 
 func main() {
