@@ -2,8 +2,11 @@
 初回は
 `docker exec -it go-gorm-gqlgen_db_1 sh`
 して、
-`mysql -u localuser -p`
-`password`
+```
+mysql -u localuser -p
+password
+use app_db
+```
 
 ```
 CREATE TABLE IF NOT EXISTS `todo` (
